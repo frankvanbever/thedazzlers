@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dazzlers | Rockabilly 50s</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #daeef2;
+            /* Vintage Diamond Pattern */
+            background-image:  linear-gradient(30deg, #c7e2e8 12%, transparent 12.5%, transparent 87%, #c7e2e8 87.5%, #c7e2e8), linear-gradient(150deg, #c7e2e8 12%, transparent 12.5%, transparent 87%, #c7e2e8 87.5%, #c7e2e8), linear-gradient(30deg, #c7e2e8 12%, transparent 12.5%, transparent 87%, #c7e2e8 87.5%, #c7e2e8), linear-gradient(150deg, #c7e2e8 12%, transparent 12.5%, transparent 87%, #c7e2e8 87.5%, #c7e2e8), linear-gradient(60deg, #b5d6de 25%, transparent 25.5%, transparent 75%, #b5d6de 75%, #b5d6de), linear-gradient(60deg, #b5d6de 25%, transparent 25.5%, transparent 75%, #b5d6de 75%, #b5d6de);
+            background-size: 40px 70px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .poster-card {
+            background: #ffffff;
+            border: 6px double #2d8e9e;
+            padding: 40px;
+            width: 85%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 12px 12px 0px #333333; /* Hard Retro Shadow */
+            position: relative;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #2d8e9e;
+            font-size: 3rem;
+            margin: 0;
+            transform: rotate(-5deg); /* Slight tilt for that hand-drawn look */
+            text-shadow: 2px 2px 0px #eee;
+        }
+
+        .sub-headline {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            color: #2c3e50;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            border-bottom: 2px solid #2c3e50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .links {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: #ffffff;
+            background: #2c3e50;
+            font-family: 'Bebas Neue', sans-serif;
+            padding: 15px;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            transition: 0.2s;
+            border: 2px solid #2c3e50;
+        }
+
+        .btn:hover {
+            background: #2d8e9e;
+            border-color: #2d8e9e;
+            transform: translate(-2px, -2px);
+            box-shadow: 4px 4px 0px #2c3e50;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster-card">
+        <img src="dazzlers.jpg" alt="The Dazzlers logo" class="logo">
+        <h1>The Dazzlers</h1>
+        <div class="sub-headline">1950s Rock & Rockabilly</div>
+
+        <div class="links">
+            <a href="#" class="btn">Upcoming Gigs</a>
+            <a href="#" class="btn">Listen on Spotify</a>
+            <a href="#" class="btn">Book the Band</a>
+        </div>
+
+        <div class="contact-info">
+            Est. 1954 • info@thedazzlers.com
+        </div>
+    </div>
+
+</body>
+</html>
